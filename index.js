@@ -7,11 +7,7 @@ const text = document.getElementById("text");
 const amount = document.getElementById("amount");
 const list = document.getElementById("list");
 
-//data
 
-// const data = [];
-
-//loclaSorage
 
 const localStorageData = JSON.parse(localStorage.getItem("datas"));
 let datas = localStorage.getItem("datas") !== null ? localStorageData : [];
